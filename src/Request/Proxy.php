@@ -3,7 +3,6 @@
 
 namespace Marlemiesz\GoogleSearchResult\Request;
 
-
 class Proxy implements ProxyInterface
 {
     private string $ip;
@@ -73,6 +72,6 @@ class Proxy implements ProxyInterface
 
     public function getUrl(): string
     {
-        return sprintf("%s://%s:%s",$this->getProtocol(), $this->getIp(), $this->getPort());
+        return sprintf("%s://%s:%s", $this->getProtocol(), $this->getIp(), $this->getPort());
     }
 }

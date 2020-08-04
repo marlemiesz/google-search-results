@@ -3,7 +3,6 @@
 
 namespace Marlemiesz\GoogleSearchResult\Request;
 
-
 class Request implements RequestInterface
 {
     private string $query;
@@ -21,9 +20,8 @@ class Request implements RequestInterface
      * @param ?ProxyInterface $proxy
      * @param string|null $location
      */
-    public function __construct(string $query, string $domain = 'google.com', ?ProxyInterface $proxy, ?string $location  = null)
+    public function __construct(string $query, string $domain = 'google.com', ?ProxyInterface $proxy, ?string $location = null)
     {
-
         $this->query = $query;
         $this->domain = $domain;
         $this->location = $location;

@@ -3,7 +3,6 @@
 
 namespace Marlemiesz\GoogleSearchResult\Tests\Constants;
 
-
 class GoogleDomain
 {
     const googlead = "google.ad";
@@ -195,5 +194,4 @@ class GoogleDomain
     const googlecozm = "google.co.zm";
     const googlecozw = "google.co.zw";
     const googlecat = "google.cat";
-
 }
