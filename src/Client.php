@@ -16,9 +16,9 @@ class Client
      * Client constructor.
      * @param RequestInterface ...$requests
      */
-    public function __construct(RequestInterface ...$requests)
+    public function __construct()
     {
-        $this->requests = $requests;
+
     }
 
     /**
@@ -34,7 +34,7 @@ class Client
      */
     public function addRequest(RequestInterface $request)
     {
-        $this->request[] = $request;
+        $this->requests[] = $request;
     }
 
     public function execute(): void
