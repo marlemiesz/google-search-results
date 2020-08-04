@@ -3,7 +3,6 @@
 
 namespace Marlemiesz\GoogleSearchResult;
 
-
 use Marlemiesz\GoogleSearchResult\Request\RequestInterface;
 
 class Client
@@ -40,6 +39,5 @@ class Client
 
     public function execute(): void
     {
-
     }
 }

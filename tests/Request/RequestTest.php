@@ -12,7 +12,7 @@ class RequestTest extends TestCase
 {
     public function testInterface()
     {
-        $proxy = new Proxy('8.8.8.8','8081','sock5');
+        $proxy = new Proxy('8.8.8.8', '8081', 'sock5');
 
         $request = new Request('google.pl', GoogleDomain::googlepl, $proxy, 'Warsaw');
 
