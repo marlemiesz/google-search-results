@@ -17,8 +17,9 @@ class Client
      * Client constructor.
      * @param RequestInterface ...$requests
      */
-    public function __construct()
+    public function __construct(RequestInterface ...$requests)
     {
+        $this->requests = $requests;
     }
 
     /**
