@@ -1,17 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "marlemiesz/google-search-results",
+    "description": "Scrape Google search result",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "marlemiesz",
+        "google-search-results"
     ],
-    "homepage": "https://github.com/spatie/:package_name",
+    "homepage": "https://github.com/marlemiesz/google-search-results",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": "https://spatie.be",
+            "name": "Marcin Lemiesz",
+            "email": "mar.lemiesz@gmail.com",
             "role": "Developer"
         }
     ],
@@ -25,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Marlemiesz\\GoogleSearchResult\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Marlemiesz\\GoogleSearchResult\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -42,6 +41,6 @@
     "config": {
         "sort-packages": true
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
