@@ -4,21 +4,14 @@
 namespace Marlemiesz\GoogleSearchResult\RequestService;
 
 
+use Marlemiesz\GoogleSearchResult\Parser\ParserInterface;
 use Marlemiesz\GoogleSearchResult\Request\RequestInterface;
 
-class AsyncService
+class AsyncService implements ServiceInterface
 {
-    /**
-     * @var RequestInterface[]
-     */
-    private array $requests;
 
-    /**
-     * AsyncService constructor.
-     * @param RequestInterface ...$requests
-     */
-    public function __construct(RequestInterface ...$requests)
+    public function execute(ParserInterface $parser, RequestInterface ...$request): array
     {
-        $this->requests = $requests;
+
     }
 }
