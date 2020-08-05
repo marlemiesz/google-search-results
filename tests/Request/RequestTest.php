@@ -39,6 +39,5 @@ class RequestTest extends TestCase
 
         $this->assertEquals(null, $request->getResponseRank());
         $this->assertEquals($error_message, $request->getResponseError());
-
     }
 }

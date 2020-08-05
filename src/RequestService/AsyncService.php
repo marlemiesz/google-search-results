@@ -3,7 +3,6 @@
 
 namespace Marlemiesz\GoogleSearchResult\RequestService;
 
-
 use Marlemiesz\GoogleSearchResult\Request\RequestInterface;
 
 class AsyncService
