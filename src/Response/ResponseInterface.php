@@ -2,8 +2,6 @@
 
 namespace Marlemiesz\GoogleSearchResult\Response;
 
-use Marlemiesz\GoogleSearchResult\Request\RequestInterface;
-
 interface ResponseInterface
 {
     /**

@@ -3,12 +3,8 @@
 
 namespace Marlemiesz\GoogleSearchResult\Response;
 
-
-use Marlemiesz\GoogleSearchResult\Request\RequestInterface;
-
 class Response implements ResponseInterface
 {
-
     private ?int $rank;
     private ?string $error_message;
 
@@ -18,7 +14,6 @@ class Response implements ResponseInterface
      */
     public function __construct()
     {
-
     }
 
     /**
@@ -40,10 +35,9 @@ class Response implements ResponseInterface
 
     public function setRank(?int $rank, ?string $message = null): void
     {
-        if($this->isRankCorrect($rank) && $message === null){
+        if ($this->isRankCorrect($rank) && $message === null) {
             $this->rank = $rank;
-        }
-        else {
+        } else {
             $this->rank = null;
             $this->error_message = $message ?? 'Unable to get rank. Unknown Reason.';
         }

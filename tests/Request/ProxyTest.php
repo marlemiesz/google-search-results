@@ -2,7 +2,6 @@
 
 namespace Marlemiesz\GoogleSearchResult\Tests\Request;
 
-
 use Marlemiesz\GoogleSearchResult\Proxy\Proxy;
 use Marlemiesz\GoogleSearchResult\Proxy\ProxyInterface;
 use PHPUnit\Framework\TestCase;

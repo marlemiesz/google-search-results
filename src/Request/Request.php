@@ -116,7 +116,6 @@ class Request implements RequestInterface
      */
     public function getResponseRank(): ?int
     {
-
         return $this->response->getRank();
     }
 
