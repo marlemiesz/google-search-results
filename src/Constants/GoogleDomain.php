@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Marlemiesz\GoogleSearchResult\Tests\Constants;
+namespace Marlemiesz\GoogleSearchResult\Constants;
 
 class GoogleDomain
 {

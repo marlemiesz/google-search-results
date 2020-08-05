@@ -1,6 +1,6 @@
 <?php
 
-namespace Marlemiesz\GoogleSearchResult\Request;
+namespace Marlemiesz\GoogleSearchResult\Proxy;
 
 interface ProxyInterface
 {

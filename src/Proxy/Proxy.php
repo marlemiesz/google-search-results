@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Marlemiesz\GoogleSearchResult\Request;
+namespace Marlemiesz\GoogleSearchResult\Proxy;
 
 class Proxy implements ProxyInterface
 {

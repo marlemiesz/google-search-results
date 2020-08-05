@@ -2,6 +2,8 @@
 
 namespace Marlemiesz\GoogleSearchResult\Request;
 
+use Marlemiesz\GoogleSearchResult\Proxy\ProxyInterface;
+
 interface RequestInterface
 {
     /**
@@ -43,4 +45,26 @@ interface RequestInterface
      * @param ProxyInterface|null $proxy
      */
     public function setProxy(?ProxyInterface $proxy): void;
+
+    /**
+     * @param int|null $rank
+     * @param string|null $error_message
+     * @return void
+     */
+    public function setResponse(?int $rank, ?string $error_message): void;
+
+    /**
+     * @return int
+     */
+    public function getResponseRank(): ?int;
+
+    /**
+     * @return bool
+     */
+    public function isResponseCorrect(): bool;
+
+    /**
+     * @return string|null
+     */
+    public function getResponseError(): ?string;
 }
